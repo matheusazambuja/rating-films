@@ -4,7 +4,14 @@ realizado em dupla.
 
 Objetivo: aplicar as diversas técnicas vista em aula para explorar o dataset MovieLens 20M. Nele contém tags e avaliações e tags (em texto-livre) do serviço. São 20,000,263 avaliações (notas de 1 a 5) e 465,564 aplicações de tags (jazz, hero, animation, dark hero, etc) em 27,278 filmes.
 
-Arquivos: formato .csv																																																						movie.csv: movieid,title,genrestag.csv: userid,movieid,tag,timestamprating.csv: userid,movieid,rating,timestamp
+Arquivos: formato .csv
+
+movie.csv: movieid,title,genres
+
+tag.csv: userid,movieid,tag,timestamp
+
+rating.csv: userid,movieid,rating,timestamp
+
 Esses arquivos podem ser baixados em: https://www.kaggle.com/grouplens/movielens-20m-dataset
 
 Tarefas: Construção e inicialização das estruturas de dados, e modo console.                                                               
