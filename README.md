@@ -7,7 +7,8 @@ Objetivo: aplicar as diversas técnicas vista em aula para explorar o dataset Mo
 Arquivos: formato .csv
 movie.csv: movieid,title,genres
 tag.csv: userid,movieid,tag,timestamp
-rating.csv: userid,movieid,rating,timestamp                                                                                               
+rating.csv: userid,movieid,rating,timestamp
+Esses arquivos podem ser baixados em: https://www.kaggle.com/grouplens/movielens-20m-dataset
 
 Tarefas: Construção e inicialização das estruturas de dados, e modo console.                                                               
 Estrutura de dados: Árvore Trie, Tabela Hash e AVL.                                                                                       
