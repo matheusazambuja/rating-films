@@ -1,6 +1,6 @@
 # movie-lens-20M
 Trabalho final da cadeira de Classificação e Pesquisa de Dados 2019/2. Trabalho foi
-realizado em dupla.
+realizado em dupla.                                                                                                                       
 
 Objetivo: aplicar as diversas técnicas vista em aula para explorar o dataset MovieLens 20M.
 Nele contém tags e avaliações e tags (em texto-livre) do serviço. São 20,000,263 avaliações
@@ -8,12 +8,12 @@ Nele contém tags e avaliações e tags (em texto-livre) do serviço. São 20,00
 27,278 filmes.
 
 Arquivos: formato .csv                                                                                                                     
-movie.csv: movieid,title,genres
-tag.csv: userid,movieid,tag,timestamp
-rating.csv: userid,movieid,rating,timestamp
+movie.csv: movieid,title,genres                                                                                                           
+tag.csv: userid,movieid,tag,timestamp                                                                                                     
+rating.csv: userid,movieid,rating,timestamp                                                                                                 
 
-Tarefas: Construção e inicialização das estruturas de dados, e modo console.
-Estrutura de dados: Árvore Trie, Tabela Hash e AVL.
+Tarefas: Construção e inicialização das estruturas de dados, e modo console.                                                               
+Estrutura de dados: Árvore Trie, Tabela Hash e AVL.                                                                                       
 
 Pesquisas:
 movie <title or prefix>: retorna a lista de filmes com esse prefixo e para cada filme o
