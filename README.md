@@ -1,4 +1,4 @@
-# rating-films
+# movie-lens-20M
 Trabalho final da cadeira de Classificação e Pesquisa de Dados 2019/2. Trabalho foi
 realizado em dupla.
 
@@ -7,7 +7,7 @@ Nele contém tags e avaliações e tags (em texto-livre) do serviço. São 20,00
 (notas de 1 a 5) e 465,564 aplicações de tags (jazz, hero, animation, dark hero, etc) em
 27,278 filmes.
 
-Arquivos: formato .csv
+Arquivos: formato .csv\n
 movie.csv: movieid,title,genres
 tag.csv: userid,movieid,tag,timestamp
 rating.csv: userid,movieid,rating,timestamp
