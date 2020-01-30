@@ -19,14 +19,14 @@ Estrutura de dados: Árvore Trie, Tabela Hash e AVL.
 
 Pesquisas:
 
-movie <title or prefix>: retorna a lista de filmes com esse prefixo e para cada filme o genero, avaliaçaão média e número de avaliações. 
+movie title or prefix - retorna a lista de filmes com esse prefixo e para cada filme o genero, avaliaçaão média e número de avaliações. 
 (implementada somente para confirmar se o filme esta no dataset, sem pesquisa).
 
-user <userID>: retorna a lista de filmes avaliações pelo usuários e para cada filme mostrar a nota dada pelo usuário, a média global e a contagem de avaliações.
+user userID - retorna a lista de filmes avaliações pelo usuários e para cada filme mostrar a nota dada pelo usuário, a média global e a contagem de avaliações.
 
-top <N> '<genre>' - retorna os N filmes com melhores notas de um dado gênero com no mínimo 1000 avaliações.
+top N genre - retorna os N filmes com melhores notas de um dado gênero com no mínimo 1000 avaliações.
 
-tags <list of tags> - retorna para cada lista de tags dada, a pesquisa deve apresentar a lista de filmes que estão associados a essas tags.
+tags list of tags - retorna para cada lista de tags dada, a pesquisa deve apresentar a lista de filmes que estão associados a essas tags.
 ex: tags 'hero' 'marvel'
 
 (erro: filmes com diferentes tags sao retornados da pesquisa)
